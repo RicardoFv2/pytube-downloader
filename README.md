@@ -135,6 +135,24 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+### 🐧 Nix/NixOS
+
+```
+# Install Nix (if not installed) and Git
+# Follow the instructions at https://nixos.org/download.html
+
+# Clone the repository
+git clone https://github.com/Joa98Dev/pytube-downloader.git
+cd pytube-downloader
+
+# Enter the development environment
+# This command reads the shell.nix file and sets up the environment
+nix-shell
+
+# Run the app
+python main.py
+```
+
 ## How to use it?
 
 1. Open the Pytube Downloader App
