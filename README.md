@@ -47,8 +47,8 @@ Python-based application built with moviepy, Tkinter, CustomTkinter and yt-dlp, 
 sudo apt update && sudo apt install python3 python3-pip git
 
 # Clone the repository
-git clone https://github.com/Joa98Dev/pytube-downloader.git
-cd pytube-donwloader
+git clone https://github.com/RicardoFv2/pytube-downloader.git
+cd pytube-downloader
 
 # Set up a virtual envrionments
 python3 -m venv venv
@@ -70,8 +70,8 @@ python main.py
 sudo pacman -S python python-pip git
 
 # Clone the repository
-git clone https://github.com/Joa98Dev/pytube-downloader.git
-cd Pytube_Downloader
+git clone https://github.com/RicardoFv2/pytube-downloader.git
+cd pytube-downloader
 
 # Set up a virtual environment
 python -m venv venv
@@ -93,8 +93,8 @@ python main.py
 # Open CMD/PowerShell as Administrator
 
 # Clone the repo
-git clone https://github.com/Joa98Dev/pytube-downloader.git
-cd Pytube_Downloader
+git clone https://github.com/RicardoFv2/pytube-downloader.git
+cd pytube-downloader
 
 # Set up a virtual environment
 python -m venv venv
@@ -119,8 +119,8 @@ python main.py
 brew install python git
 
 # Clone the repo
-git clone https://github.com/Joa98Dev/pytube-downloader.git
-cd Pytube_Downloader
+git clone https://github.com/RicardoFv2/pytube-downloader.git
+cd pytube-downloader
 
 # Set up a virtual environment
 python3 -m venv venv
@@ -138,11 +138,11 @@ python3 main.py
 ### 🐧 Nix/NixOS
 
 ```
-# Install Nix (if not installed) and Git
+# Install Nix (if not installed)
 # Follow the instructions at https://nixos.org/download.html
 
-# Clone the repository
-git clone https://github.com/Joa98Dev/pytube-downloader.git
+# Clone the repository using a temporary shell with Git
+nix-shell -p git --run "git clone https://github.com/RicardoFv2/pytube-downloader.git"
 cd pytube-downloader
 
 # Enter the development environment
